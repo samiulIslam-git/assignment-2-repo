@@ -14,7 +14,7 @@ body {
 
 /* nav-section */
 
-*{
+* {
     margin: 0;
 }
 
@@ -56,4 +56,125 @@ body {
     align-items: center;
     text-align: center;
     font-size: 1rem;
+}
+
+/* get body section */
+
+.get-body-description {
+    width: 40%;
+    height: 400px;
+    margin-left: 12.5%;
+}
+
+#heading1 {
+    font-size: 78px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+}
+
+.fitness-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 17px;
+    margin-bottom: 40px;
+}
+
+#app {
+    background: none;
+    color: rgb(255, 255, 255);
+    border-radius: 42px;
+    box-sizing: border-box;
+    position: static;
+    width: 180px;
+    height: 45px;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.join-club {
+    width: 185px;
+    height: 45px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.get-body-button {
+    display: flex;
+    gap: 1rem;
+    margin-top: 20px;
+}
+
+.get-body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.get-body-img {
+    margin-top: -85px;
+}
+
+.video-tutorial {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    text-align: center;
+    justify-content: center;
+    gap: 1px;
+    margin-top: -160px;
+    backdrop-filter: blur(15px);
+    width: 150px;
+    height: 60px;
+    background-color: rgba(48, 48, 48, 0.54)
+}
+
+.round {
+    width: 20px;
+    display: flex;
+    border-radius: 50%;
+    height: 100%;
+    background-color: tomato;
+}
+
+#sub1 {
+    color: rgb(250, 250, 249);
+    font-size: 1.3rem;
+}
+
+#sub1-description {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.free-videos {
+
+    background: rgba(255, 255, 255, 0.1);
+    margin-right: -110px;
+    width: -125px;
+    height: 80px;
+    margin-top: -345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    position: absolute;
+    margin-left: 210px;
+    backdrop-filter: blur(15px);
+    border-radius: 6px;
+}
+
+#sub2 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#sub2-description {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
 }
