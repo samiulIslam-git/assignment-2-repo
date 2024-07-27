@@ -8,7 +8,7 @@
 }
 
 body {
-    width: 90%;
+    width: 95%;
     background: rgb(0, 0, 0);
 }
 
@@ -223,4 +223,36 @@ body {
 .img-one {
     width: 270px;
     height: 180px;
+}
+
+/* run an extra mile */
+
+.extra-mile {
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 80%;
+    height:350px;
+    margin-left: 180px;
+    border-radius: 16px;
+}
+
+.mile-img {
+    border-radius: 18px;
+    margin-right: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mile-easily {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.ex-mile-heading{
+    margin: 20px 0;
 }
