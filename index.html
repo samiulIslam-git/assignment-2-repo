@@ -12,39 +12,41 @@
 </head>
 
 <body>
-    <nav class="nav-container">
-        <div>
-            <h4 id="fitness">Fitness</h4>
-        </div>
-        <div class="nav-info">
-            <p class="home">Home</p>
-            <p>Service</p>
-            <p>Contact</p>
-            <p>About</p>
-        </div>
-    </nav>
-    <section class="get-body">
-        <div class="get-body-description">
-            <h1 id="heading1">Get body in <br> <span id="shape">shape</span> & stay <br> healthy</h1>
-            <p class="fitness-description">A huge selection of health and fitness content, healthy recipes and
-                transformation stories to help you get fit and stay fit!</p>
-            <div class="get-body-button">
-                <button class="home join-club">Join Club Now!</button>
-                <button id="app">Download App</button>
+    <div class="clr">
+        <nav class="nav-container">
+            <div>
+                <h4 id="fitness">Fitness</h4>
             </div>
-        </div>
-        <div class="get-body-img"><img src="images/Images 2.png" alt="">
-            <div class="video-tutorial">
-                <div class="round"></div>
-                <h3 id="sub1">350+</h3>
-                <p id="sub1-description">Video tutorial</p>
+            <div class="nav-info">
+                <p class="home">Home</p>
+                <p>Service</p>
+                <p>Contact</p>
+                <p>About</p>
             </div>
-            <div class="free-videos">
-                <h3 id="sub2">500+</h3>
-                <p id="sub2-description">Free Workout Videos</p>
+        </nav>
+        <section class="get-body">
+            <div class="get-body-description">
+                <h1 id="heading1">Get body in <br> <span id="shape">shape</span> & stay <br> healthy</h1>
+                <p class="fitness-description">A huge selection of health and fitness content, healthy recipes and
+                    transformation stories to help you get fit and stay fit!</p>
+                <div class="get-body-button">
+                    <button class="home join-club">Join Club Now!</button>
+                    <button id="app">Download App</button>
+                </div>
             </div>
-        </div>
-    </section>
+            <div class="get-body-img"><img src="images/Images 2.png" alt="">
+                <div class="video-tutorial">
+                    <div class="round"></div>
+                    <h3 id="sub1">350+</h3>
+                    <p id="sub1-description">Video tutorial</p>
+                </div>
+                <div class="free-videos">
+                    <h3 id="sub2">500+</h3>
+                    <p id="sub2-description">Free Workout Videos</p>
+                </div>
+            </div>
+        </section>
+    </div>
     <section class="habit-section">
         <div class="habit">
             <h2 class="habit-title">Change Your Habits</h2>
@@ -57,7 +59,7 @@
                 <h5 class="nav-info">Movement</h5>
                 <p class="habit-description">We believe fitness should be accessible to everyone</p>
             </div>
-            <div><img src="images/image 2.png" alt="">
+            <div class="img-one"><img src="images/image 2.png" alt="">
                 <h5 class="nav-info">Time</h5>
                 <p class="habit-description">We believe time management should be accessible to everyone</p>
             </div>
@@ -77,12 +79,49 @@
     <div class="extra-mile">
         <div class="mile-easily">
             <h3 class="habit-title ex-mile-heading">Run an Extra <br> Mile Easily</h3>
-            <p class="habit-description">We believe fitness should be accessible to everyone,<br> everywhere, regardless <br> of income or access to a gym.
-                With hundreds of professional workouts.</p>
+            <p class="habit-description">We believe fitness should be accessible to everyone,<br> everywhere, regardless
+                <br> of income or access to a gym.
+                With hundreds of professional workouts.
+            </p>
             <button class="home join-club">Join Now</button>
         </div>
-        <div class="mile-img"><img height="280px" width="350px" src="images/run.jpg" alt=""></div>
+        <div id="mile-img"><img height="270px" width="390px" src="images/run.jpg" alt=""></div>
     </div>
+
+    <!-- bmi calculator -->
+
+    <div class="bmi">
+        <h3 class="bmi-left-heading">BMI Calculator</h3>
+        <p class="habit-description">We believe fitness should be accessible to everyone, everywhere, regardless of
+            income or access to a gym.</p>
+    </div>
+
+    <div class="bmi-calculator-container">
+        <div class="bmi-chart">
+            <p>BMI:</p>
+            <p>Below 18.5 - Underweight</p>
+            <p>18.5 - 24.9 - Healthy weight </p>
+            <p>25- 29.9 - Over Weight</p>
+            <p>30 and above - Obese</p>
+        </div>
+        <div class="bmi-form">
+            <h2>Calculate your BMI</h2>
+            <label for="height">height (cm)</label>
+            <select id="height">
+                <option value="150">150</option>
+            </select>
+            <label for="weight">weight (kg):</label>
+            <select id="weight">
+                <option value="50">50</option>
+            </select>
+            <label for="activity factor"> Select an activity factor. </label>
+            <select id="activity-factor">
+                <option value="sedentary"> sedentary</option>
+            </select>
+            <button class="calculate-btn">Calculate</button>
+        </div>
+    </div>
+
 </body>
 
 </html>
