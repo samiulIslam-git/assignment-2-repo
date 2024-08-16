@@ -464,10 +464,10 @@ body {
     justify-content: center;
     background: rgba(255, 255, 255, 0.1);
     text-align: center;
-    
+
 }
 
-.trainer-names{
+.trainer-names {
     color: white;
     font-weight: 800;
     position: relative;
@@ -475,9 +475,83 @@ body {
     right: 26%;
 }
 
-.trainer{
+.trainer {
     color: rgba(255, 255, 255, 0.6);
     position: relative;
     bottom: 20%;
     right: 30%;
+}
+
+@media screen and (max-width:576px) {
+    .team-members {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* footer section */
+
+.footer-heading {
+    color: rgb(230, 83, 60);
+    font-weight: 800px;
+    font-family: Inter;
+    font-size: 70px;
+    font-style: italic;
+}
+
+.footer-left {
+    position: relative;
+    width: 35%;
+}
+
+.get-started {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+}
+
+.footer-middle-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.footer-sec {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    width: 90%;
+    position: relative;
+    margin-left: 50px;
+    position: relative;
+    align-items: center;
+    padding-top: 14px;
+}
+
+.footer-container {
+    background: rgba(255, 255, 255, 0.1);
+    margin-left: 100px;
+    height: 390px;
+    border-radius: 15px;
+}
+
+.line {
+    width: 65%;
+    height: 2px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+    margin-top: 85px;
+    margin-bottom: 50px;
+}
+
+.footer-end {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
 }
