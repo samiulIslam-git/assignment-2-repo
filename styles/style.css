@@ -117,6 +117,7 @@ body {
 @media screen and (max-width:576px) {
     .get-body {
         flex-direction: column;
+        overflow: hidden;
     }
 }
 
@@ -219,6 +220,7 @@ body {
 @media screen and (max-width:576px) {
     .habit-img-container {
         flex-direction: column;
+        overflow: hidden;
     }
 }
 
@@ -269,6 +271,7 @@ body {
 @media screen and (max-width:576px) {
     .extra-mile {
         flex-direction: column;
+        overflow: hidden;
     }
 }
 
@@ -485,6 +488,7 @@ body {
 @media screen and (max-width:576px) {
     .team-members {
         grid-template-columns: repeat(1, 1fr);
+        overflow: hidden;
     }
 }
 
@@ -492,6 +496,7 @@ body {
 
 .footer-heading {
     color: rgb(230, 83, 60);
+    display: flex;
     font-weight: 800px;
     font-family: Inter;
     font-size: 70px;
@@ -499,6 +504,8 @@ body {
 }
 
 .footer-left {
+    display: flex;
+    flex-direction: column;
     position: relative;
     width: 35%;
 }
@@ -554,4 +561,21 @@ body {
     font-family: Inter;
     font-size: 17px;
     font-weight: 400;
+    margin-bottom: 25px;
+}
+
+/* footer responsive */
+
+@media screen and (max-width:576px) {
+
+    .footer-left,
+    .footer-sec,
+    .footer-end ,
+    .footer-heading
+    {
+        flex-direction: column;
+        overflow: hidden;
+        justify-content: left;
+        text-align: left;
+    }
 }
