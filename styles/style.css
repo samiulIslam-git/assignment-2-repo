@@ -195,6 +195,7 @@ body {
     margin-bottom: 25px;
 }
 
+
 .habit-description {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
@@ -213,6 +214,12 @@ body {
     display: flex;
     justify-content: space-evenly;
     gap: 1px;
+}
+
+@media screen and (max-width:576px) {
+    .habit-img-container {
+        flex-direction: column;
+    }
 }
 
 .habit-section {
@@ -259,7 +266,21 @@ body {
     margin: 20px 0;
 }
 
+@media screen and (max-width:576px) {
+    .extra-mile {
+        flex-direction: column;
+    }
+}
+
 /* bmi calculator */
+
+.calculate {
+    margin: 0 auto;
+    margin-bottom: 100px;
+    height: 100%;
+    padding: 20px;
+    background-color: rgb(34, 34, 34);
+}
 
 .bmi-heading {
     color: rgb(255, 255, 255);
@@ -334,7 +355,7 @@ body {
 
 .flex {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     text-align: left;
     max-width: 100%;
     text-align: left;
@@ -397,7 +418,7 @@ body {
     font-weight: 400;
 }
 
-.age-sex{
+.age-sex {
     display: flex;
     justify-content: space-evenly;
     padding-right: 160px;
@@ -413,12 +434,50 @@ body {
     padding-right: 140px;
 }
 
-.activity-factor , .select-activity{
+.activity-factor,
+.select-activity {
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 7px;
 }
 
-#activity-fac{
+#activity-fac {
     background: none;
     color: rgba(255, 255, 255, 0.6);
+}
+
+/* meet our team section */
+
+.meet-team {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team-members {
+    margin: 0 auto;
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 50px;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    
+}
+
+.trainer-names{
+    color: white;
+    font-weight: 800;
+    position: relative;
+    bottom: 20%;
+    right: 26%;
+}
+
+.trainer{
+    color: rgba(255, 255, 255, 0.6);
+    position: relative;
+    bottom: 20%;
+    right: 30%;
 }
