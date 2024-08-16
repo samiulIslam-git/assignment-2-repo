@@ -90,36 +90,63 @@
 
     <!-- bmi calculator -->
 
-    <div class="bmi">
-        <h3 class="bmi-left-heading">BMI Calculator</h3>
-        <p class="habit-description">We believe fitness should be accessible to everyone, everywhere, regardless of
-            income or access to a gym.</p>
+    <div class="calculator">
+        <h1 class="bmi-heading">BMI Calculator</h1>
+        <p class="bmi-descriptions">We believe fitness should be accessible to everyone, everywhere, regardless of
+            income
+            or access to a gym.
+        </p>
     </div>
-
-    <div class="bmi-calculator-container">
-        <div class="bmi-chart">
-            <p>BMI:</p>
-            <p>Below 18.5 - Underweight</p>
-            <p>18.5 - 24.9 - Healthy weight </p>
-            <p>25- 29.9 - Over Weight</p>
-            <p>30 and above - Obese</p>
+    <div class="calculate">
+        <div class="calc-heading">
+            <h3 class="chart-heading">BMI Calculator Chart</h3>
+            <div class="form">
+                <h2 class="calculate-bmi">Calculate your BMI</h2>
+                <p class="calculate-bmi-description we">We believe fitness should be accessible to everyone, <br>
+                    everywhere, regardless of income or
+                    access to a gym.
+                </p>
+            </div>
         </div>
-        <div class="bmi-form">
-            <h2>Calculate your BMI</h2>
-            <label for="height">height (cm)</label>
-            <select id="height">
-                <option value="150">150</option>
-            </select>
-            <label for="weight">weight (kg):</label>
-            <select id="weight">
-                <option value="50">50</option>
-            </select>
-            <label for="activity factor"> Select an activity factor. </label>
-            <select id="activity-factor">
-                <option value="sedentary"> sedentary</option>
-            </select>
-            <button class="calculate-btn">Calculate</button>
+        <div class="flex">
+            <div class="chart-list">
+                <div class="chart-list-left">
+                    <p class="bmi-description bmi">BMI</p>
+                    <p class="bmi-description">Below</p>
+                    <p class="bmi-description">18.5 - 24.9</p>
+                    <p class="bmi-description">25.0 - 29.9</p>
+                    <p class="bmi-description">30.0 - and Above</p>
+                </div>
+                <div class="status">
+                    <p class="bmi-description bmi">Weight Status</p>
+                    <p class="bmi-description">Underweight</p>
+                    <p class="bmi-description">Healthy</p>
+                    <p class="bmi-description">Overweight</p>
+                    <p class="bmi-description">Obese</p>
+                </div>
+            </div>
+            <div class="bmi-calc-right">
+                <div class="kg-cm">
+                    <button class="calculate-bmi-description bmi-btn">Height/cm</button>
+                    <button class="calculate-bmi-description bmi-btn">Weight/kg</button>
+                </div>
+                <div class="age-sex">
+                    <button class="calculate-bmi-description bmi-btn">Age</button>
+                    <select id="sex">
+                        <option value="sex">sex</option>
+                </div>
+                </select>
+            </div>
+            <div class="activity-factor">
+                <button class="select-activity bmi-btn">
+                    <select id="activity-fac">
+                        <option value="activity">Select an Activity Factor</option>
+                    </select>
+                </button>
+            </div>
+            <button class="home join-club">Calculate</button>
         </div>
+    </div>
     </div>
 
 </body>
